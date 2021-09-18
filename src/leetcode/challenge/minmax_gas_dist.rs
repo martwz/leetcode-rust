@@ -1,7 +1,4 @@
-use std::cmp::Ordering;
-use std::collections::BinaryHeap;
-use std::collections::HashMap;
-
+// https://leetcode.com/problems/minimize-max-distance-to-gas-station/
 impl Solution {
     pub fn minmax_gas_dist(stations: Vec<i32>, k: i32) -> f64 {
         fn is_valid(stations: &Vec<i32>, k: i32, mid: f64) -> bool {

@@ -1,4 +1,5 @@
 #![allow(unused_imports)]
+#![allow(dead_code)]
 
 mod binarysearch;
 mod leetcode;

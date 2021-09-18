@@ -1,10 +1,6 @@
 use std::collections::HashMap;
 
-/*
-  1. Two Sum
-  https://leetcode.com/problems/two-sum/
-*/
-
+// https://leetcode.com/problems/two-sum/
 impl Solution {
     pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
         let mut map: HashMap<i32, i32> = HashMap::new();
