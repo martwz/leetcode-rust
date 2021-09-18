@@ -33,9 +33,6 @@ mod tests {
 
     #[test]
     fn test_minmax_gas_dist() {
-        assert!(
-            0.4 < Solution::minmax_gas_dist(vec![1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 9)
-                && Solution::minmax_gas_dist(vec![1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 9) < 0.6,
-        );
+        assert!(0.4 < Solution::minmax_gas_dist(vec![1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 9) && Solution::minmax_gas_dist(vec![1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 9) < 0.6,);
     }
 }

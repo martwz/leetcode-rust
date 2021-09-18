@@ -52,10 +52,7 @@ mod tests {
 
     #[test]
     fn test_intersect() {
-        assert_eq!(
-            Solution::intersect(vec![1, 2, 2, 1], vec![2, 2]),
-            vec![2, 2]
-        );
+        assert_eq!(Solution::intersect(vec![1, 2, 2, 1], vec![2, 2]), vec![2, 2]);
     }
 
     #[test]
@@ -70,18 +67,12 @@ mod tests {
 
     #[test]
     fn intersect_using_pointers() {
-        assert_eq!(
-            Solution::intersect_using_pointers(vec![1, 2, 2, 1], vec![2, 2]),
-            vec![2, 2]
-        );
+        assert_eq!(Solution::intersect_using_pointers(vec![1, 2, 2, 1], vec![2, 2]), vec![2, 2]);
     }
 
     #[test]
     fn intersect_using_pointers2() {
-        assert_eq!(
-            Solution::intersect_using_pointers(vec![1, 2, 2, 1], vec![]),
-            vec![]
-        );
+        assert_eq!(Solution::intersect_using_pointers(vec![1, 2, 2, 1], vec![]), vec![]);
     }
 
     #[test]
