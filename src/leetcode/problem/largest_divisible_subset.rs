@@ -38,7 +38,7 @@ mod tests {
 
     #[test]
     fn test_largest_divisible_subset() {
-        assert_eq!(Solution::largest_divisible_subset(vec![1, 2, 3]), vec![1, 2]);
+        assert_eq!(Solution::largest_divisible_subset(vec![1, 2, 3]), vec![1, 3]);
     }
 
     #[test]
