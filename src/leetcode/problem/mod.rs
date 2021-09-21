@@ -2,6 +2,8 @@ mod add_operators;
 mod erase_overlap_intervals;
 mod find_min_arrow_shots;
 mod find_poisoned_duration;
+mod is_good_array;
+mod largest_divisible_subset;
 mod max_uncrossed_lines;
 mod min_distance;
 mod min_eating_speed;
