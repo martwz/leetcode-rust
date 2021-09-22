@@ -7,5 +7,6 @@ mod largest_divisible_subset;
 mod max_uncrossed_lines;
 mod min_distance;
 mod min_eating_speed;
+mod num_subarray_product_less_than_k;
 mod pseudo_palindromic_paths;
 mod two_sum;
