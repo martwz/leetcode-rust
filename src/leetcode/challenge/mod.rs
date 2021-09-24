@@ -7,3 +7,4 @@ mod num_distinct;
 mod shortest_distance;
 mod spiral_order;
 mod tictactoe;
+mod tribonacci;
