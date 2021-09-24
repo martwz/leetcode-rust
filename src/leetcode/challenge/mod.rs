@@ -1,7 +1,9 @@
+mod break_palindrome;
 mod find_max_consecutive_ones;
 mod intersect;
 mod max_length;
 mod minmax_gas_dist;
 mod num_distinct;
+mod shortest_distance;
 mod spiral_order;
 mod tictactoe;
