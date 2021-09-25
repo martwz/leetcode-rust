@@ -5,6 +5,7 @@ mod max_length;
 mod minmax_gas_dist;
 mod num_distinct;
 mod shortest_distance;
+mod shortest_path;
 mod spiral_order;
 mod tictactoe;
 mod tribonacci;
