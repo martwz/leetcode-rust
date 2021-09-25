@@ -1,3 +1,4 @@
+// 1239. Maximum Length of a Concatenated String with Unique Characters, Medium
 // https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/
 impl Solution {
     pub fn max_length(arr: Vec<String>) -> i32 {

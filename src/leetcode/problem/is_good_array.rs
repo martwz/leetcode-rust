@@ -1,3 +1,4 @@
+// 1134. Armstrong Number, Easy
 // https://leetcode.com/problems/armstrong-number/
 impl Solution {
     pub fn is_armstrong(n: i32) -> bool {

@@ -16,6 +16,7 @@ impl TreeNode {
     }
 }
 
+// 1457. Pseudo-Palindromic Paths in a Binary Tree, Easy
 // https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/
 impl Solution {
     pub fn pseudo_palindromic_paths(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {

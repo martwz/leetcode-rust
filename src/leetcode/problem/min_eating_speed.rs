@@ -1,3 +1,4 @@
+// 875. Koko Eating Bananas, Medium
 // https://leetcode.com/problems/koko-eating-bananas/
 impl Solution {
     pub fn min_eating_speed(piles: Vec<i32>, h: i32) -> i32 {

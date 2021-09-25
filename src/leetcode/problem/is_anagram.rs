@@ -1,3 +1,4 @@
+// 242. Valid Anagram, Easy
 // https://leetcode.com/problems/valid-anagram/
 impl Solution {
     pub fn is_anagram(s: String, t: String) -> bool {
