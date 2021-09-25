@@ -4,7 +4,7 @@ impl Solution {
     pub fn spiral_order(matrix: Vec<Vec<i32>>) -> Vec<i32> {
         let mut ans = vec![];
         // edge cases:
-        if matrix.len() == 0 || matrix[0].len() == 0 {
+        if matrix.is_empty() || matrix[0].is_empty() {
             return ans;
         } else if matrix[0].len() == 1 {
             matrix.iter().flatten().for_each(|f| {
@@ -44,7 +44,7 @@ impl Solution {
                     pos = (pos.0 + 1, pos.1);
                     ans.push(matrix[pos.0][pos.1]);
                 }
-                n = n - 1;
+                n -= 1;
                 direction = Direction::LEFT;
             } else if m > 0 && direction == Direction::LEFT {
                 for _j in 0..m {
@@ -65,7 +65,7 @@ impl Solution {
             i += 1;
         }
 
-        return ans;
+        ans
     }
 }
 

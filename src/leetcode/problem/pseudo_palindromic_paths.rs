@@ -29,20 +29,20 @@ impl Solution {
 
             let node = node.as_ref().unwrap().borrow();
 
-            mask = mask ^ 1 << node.val - 1;
+            mask ^= 1 << (node.val - 1);
             if node.left.is_none() && node.right.is_none() {
                 if mask == mask & -mask {
                     *ans += 1;
                 }
             } else {
-                dfs(ans, node.left.clone(), mask.clone());
-                dfs(ans, node.right.clone(), mask.clone());
+                dfs(ans, node.left.clone(), mask);
+                dfs(ans, node.right.clone(), mask);
             }
         }
 
         dfs(&mut ans, root, 0);
 
-        return ans;
+        ans
     }
 }
 

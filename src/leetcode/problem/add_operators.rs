@@ -24,12 +24,12 @@ impl Solution {
                             target,
                             None,
                             i + 1,
-                            equation.clone() + "*" + digit_str,
+                            equation + "*" + digit_str,
                             (res - prev_effect.unwrap()) + (prev_effect.unwrap() * digit),
                             ans,
                         );
                     } else {
-                        force(num, target, None, i + 1, equation.clone() + "*" + digit_str, res * digit, ans);
+                        force(num, target, None, i + 1, equation + "*" + digit_str, res * digit, ans);
                     }
                 }
             }
@@ -37,7 +37,7 @@ impl Solution {
 
         force(&num, target, None, 0, "".to_string(), 0, &mut ans);
 
-        return ans;
+        ans
     }
 }
 

@@ -13,20 +13,20 @@ impl Solution {
         }
 
         for num in nums2.iter() {
-            if *map.get(&num).unwrap_or(&0) > 0 {
+            if *map.get(num).unwrap_or(&0) > 0 {
                 *map.entry(*num).or_insert(0) -= 1;
                 ans.push(*num);
             }
         }
 
-        return ans;
+        ans
     }
 
     pub fn intersect_using_pointers(mut nums1: Vec<i32>, mut nums2: Vec<i32>) -> Vec<i32> {
         let mut ans = vec![];
 
-        nums1.sort();
-        nums2.sort();
+        nums1.sort_unstable();
+        nums2.sort_unstable();
 
         let [mut i, mut j, n, m] = [0, 0, nums1.len(), nums2.len()];
         while i < n && j < m {
@@ -41,7 +41,7 @@ impl Solution {
             }
         }
 
-        return ans;
+        ans
     }
 }
 

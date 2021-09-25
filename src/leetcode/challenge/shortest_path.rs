@@ -44,16 +44,16 @@ impl Solution {
         let mut paths = Vec::new();
 
         // start is obstacle?
-        if grid.len() > 0 && grid[0].len() > 0 && grid[0][0] == 1 {
+        if !grid.is_empty() && !grid[0].is_empty() && grid[0][0] == 1 {
             return -1;
         }
         bfs(&grid, (0, 0), k, HashSet::new(), &mut paths);
 
         paths.sort_by_key(|a| a.len());
         if let Some(path) = paths.first() {
-            return path.len() as i32;
+            path.len() as i32
         } else {
-            return -1;
+            -1
         }
     }
 }

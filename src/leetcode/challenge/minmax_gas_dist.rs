@@ -9,7 +9,7 @@ impl Solution {
                 count += ((stations[i] - stations[i - 1]) as f64 / mid) as i32;
             });
 
-            return count <= k;
+            count <= k
         }
 
         let [mut l, mut r] = [0.0, 1e8];
@@ -22,7 +22,7 @@ impl Solution {
             }
         }
 
-        return l;
+        l
     }
 }
 

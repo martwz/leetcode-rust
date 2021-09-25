@@ -18,7 +18,7 @@ impl Solution {
 
             queue.push_back((x, y));
 
-            while queue.len() > 0 {
+            while !queue.is_empty() {
                 let (x, y) = queue.pop_front().unwrap();
 
                 if x < 0 || x >= grid.len() as i32 || y < 0 || y >= grid[0].len() as i32 {

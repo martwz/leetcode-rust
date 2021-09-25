@@ -4,11 +4,11 @@ use std::collections::HashMap;
 // https://leetcode.com/problems/largest-divisible-subset/
 impl Solution {
     pub fn largest_divisible_subset(mut nums: Vec<i32>) -> Vec<i32> {
-        if nums.len() == 0 {
+        if nums.is_empty() {
             return vec![];
         }
 
-        nums.sort();
+        nums.sort_unstable();
 
         let mut sol = vec![];
         for i in 0..nums.len() {
@@ -25,7 +25,7 @@ impl Solution {
             }
         }
 
-        sol.sort_by(|a, b| a.len().cmp(&b.len()));
+        sol.sort_by_key(|a| a.len());
 
         return sol.last().unwrap().to_vec();
     }

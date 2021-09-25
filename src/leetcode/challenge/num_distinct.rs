@@ -19,7 +19,7 @@ impl Solution {
             }
         }
 
-        return dp[m][n];
+        dp[m][n]
     }
 }
 

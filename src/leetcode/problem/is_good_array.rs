@@ -6,7 +6,7 @@ impl Solution {
         let mut tmp = n;
         while tmp > 0 {
             digits.push(tmp % 10);
-            tmp = tmp / 10;
+            tmp /= 10;
         }
 
         let mut sum = 0;
@@ -14,7 +14,7 @@ impl Solution {
             sum += digit.pow(digits.len() as u32);
         }
 
-        return sum == n;
+        sum == n
     }
 }
 

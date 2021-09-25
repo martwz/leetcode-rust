@@ -48,9 +48,9 @@ impl Solution {
         }
 
         if moves.len() == 9 {
-            return "Draw".to_string();
+            "Draw".to_string()
         } else {
-            return "Pending".to_string();
+            "Pending".to_string()
         }
     }
 }

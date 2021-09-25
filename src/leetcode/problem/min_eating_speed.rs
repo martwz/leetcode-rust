@@ -2,7 +2,7 @@
 // https://leetcode.com/problems/koko-eating-bananas/
 impl Solution {
     pub fn min_eating_speed(piles: Vec<i32>, h: i32) -> i32 {
-        if piles.len() == 0 {
+        if piles.is_empty() {
             return 0;
         }
 
@@ -13,7 +13,7 @@ impl Solution {
             piles.iter().for_each(|p| {
                 hours += f64::ceil(*p as f64 / k as f64) as i32;
             });
-            return hours <= h;
+            hours <= h
         }
 
         while hi - lo > 1 {
@@ -25,7 +25,7 @@ impl Solution {
             }
         }
 
-        return hi;
+        hi
     }
 }
 

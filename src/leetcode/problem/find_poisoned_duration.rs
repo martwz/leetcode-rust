@@ -13,7 +13,7 @@ impl Solution {
             }
             tick_off = duration + t;
         });
-        return sum;
+        sum
     }
 }
 

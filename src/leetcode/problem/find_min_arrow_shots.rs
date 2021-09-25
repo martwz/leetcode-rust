@@ -14,7 +14,7 @@ impl Solution {
             }
         }
 
-        return rms;
+        rms
     }
 }
 

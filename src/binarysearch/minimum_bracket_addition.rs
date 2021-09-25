@@ -13,16 +13,14 @@ impl Solution {
         for c in s.chars() {
             if c == '(' {
                 queue.push_back(c);
+            } else if queue.back() == Some(&'(') {
+                queue.pop_back();
             } else {
-                if queue.back() == Some(&'(') {
-                    queue.pop_back();
-                } else {
-                    inserts += 1;
-                }
+                inserts += 1;
             }
         }
 
-        return inserts + queue.len() as i32;
+        inserts + queue.len() as i32
     }
 }
 

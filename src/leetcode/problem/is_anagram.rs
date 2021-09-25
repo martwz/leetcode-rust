@@ -8,8 +8,8 @@ impl Solution {
 
         let mut s_chars: Vec<char> = s.chars().collect();
         let mut t_chars: Vec<char> = t.chars().collect();
-        s_chars.sort();
-        t_chars.sort();
+        s_chars.sort_unstable();
+        t_chars.sort_unstable();
 
         for i in 0..s_chars.len() {
             if (s_chars[i] as u8) != (t_chars[i] as u8) {
@@ -17,7 +17,7 @@ impl Solution {
             }
         }
 
-        return true;
+        true
     }
 }
 
