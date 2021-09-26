@@ -3,6 +3,7 @@ mod find_max_consecutive_ones;
 mod intersect;
 mod max_length;
 mod minmax_gas_dist;
+mod moves_to_chessboard;
 mod num_distinct;
 mod shortest_distance;
 mod shortest_path;
