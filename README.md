@@ -10,12 +10,17 @@ LeetCode is a website that has programming-related questions that are designed t
 | No. | Title | Solution | Problem | Difficulty |
 |:---:|:------|:--------:|:-------:|:----------:|
 | 1 | Two Sum | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/two_sum.rs) | [Leetcode](https://leetcode.com/problems/two-sum/) | Easy |
+| 3 | Longest Substring Without Repeating Characters | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/top_interview/array_and_string/length_of_longest_substring.rs) | [Leetcode](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium |
+| 49 | Group Anagrams | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/top_interview/array_and_string/group_anagrams.rs) | [Leetcode](https://leetcode.com/problems/group-anagrams/) | Medium |
 | 54 | Spiral Matrix | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/spiral_order.rs) | [Leetcode](https://leetcode.com/problems/spiral-matrix/) | Medium |
+| 55 | Jump Game | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/top_interview/array_and_string/can_jump.rs) | [Leetcode](https://leetcode.com/problems/jump-game/) | Medium |
 | 72 | Edit Distance | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/min_distance.rs) | [Leetcode](https://leetcode.com/problems/edit-distance/) | Hard |
+| 73 | Set Matrix Zeroes | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/top_interview/array_and_string/set_zeroes.rs) | [Leetcode](https://leetcode.com/problems/set-matrix-zeroes/submissions/) | Medium |
 | 115 | Distinct Subsequences | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/num_distinct.rs) | [Leetcode](https://leetcode.com/problems/distinct-subsequences/) | Hard |
 | 242 | Valid Anagram | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/is_anagram.rs) | [Leetcode](https://leetcode.com/problems/valid-anagram/) | Easy |
 | 282 | Expression Add Operators | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/add_operators.rs) | [Leetcode](https://leetcode.com/problems/expression-add-operators/) | Hard |
 | 317 | Shortest Distance from All Buildings | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/shortest_distance.rs) | [Leetcode](https://leetcode.com/problems/shortest-distance-from-all-buildings/) | Hard |
+| 334 | Increasing Triplet Subsequence | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/top_interview/array_and_string/increasing_triplet.rs) | [Leetcode](https://leetcode.com/problems/increasing-triplet-subsequence/) | Medium |
 | 350 | Intersection of Two Arrays II | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/intersect.rs) | [Leetcode](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | Easy |
 | 368 | Largest Divisible Subset | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/largest_divisible_subset.rs) | [Leetcode](https://leetcode.com/problems/largest-divisible-subset/) | Medium |
 | 435 | Non-overlapping Intervals | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/erase_overlap_intervals.rs) | [Leetcode](https://leetcode.com/problems/non-overlapping-intervals/) | Medium |
