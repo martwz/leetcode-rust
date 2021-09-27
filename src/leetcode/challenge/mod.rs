@@ -5,6 +5,7 @@ mod max_length;
 mod minmax_gas_dist;
 mod moves_to_chessboard;
 mod num_distinct;
+mod num_unique_emails;
 mod shortest_distance;
 mod shortest_path;
 mod spiral_order;
