@@ -10,7 +10,9 @@ LeetCode is a website that has programming-related questions that are designed t
 | No. | Title | Solution | Problem | Difficulty |
 |:---:|:------|:--------:|:-------:|:----------:|
 | 1 | Two Sum | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/two_sum.rs) | [Leetcode](https://leetcode.com/problems/two-sum/) | Easy |
+| 2 | Add Two Numbers | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/top_interview/linked_list/add_two_numbers.rs) | [Leetcode](https://leetcode.com/problems/add-two-numbers/) | Medium |
 | 3 | Longest Substring Without Repeating Characters | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/top_interview/array_and_string/length_of_longest_substring.rs) | [Leetcode](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium |
+| 5 | Longest Palindromic Substring | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/top_interview/array_and_string/longest_palindrome.rs) | [Leetcode](https://leetcode.com/problems/longest-palindromic-substring/) | Medium |
 | 49 | Group Anagrams | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/top_interview/array_and_string/group_anagrams.rs) | [Leetcode](https://leetcode.com/problems/group-anagrams/) | Medium |
 | 54 | Spiral Matrix | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/spiral_order.rs) | [Leetcode](https://leetcode.com/problems/spiral-matrix/) | Medium |
 | 55 | Jump Game | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/top_interview/dynamic_programming/can_jump.rs) | [Leetcode](https://leetcode.com/problems/jump-game/) | Medium |
@@ -32,6 +34,7 @@ LeetCode is a website that has programming-related questions that are designed t
 | 713 | Subarray Product Less Than K | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/num_subarray_product_less_than_k.rs) | [Leetcode](https://leetcode.com/problems/subarray-product-less-than-k/) | Medium |
 | 774 | Minimize Max Distance to Gas Station | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/minmax_gas_dist.rs) | [Leetcode](https://leetcode.com/problems/minimize-max-distance-to-gas-station/) | Medium |
 | 875 | Koko Eating Bananas | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/min_eating_speed.rs) | [Leetcode](https://leetcode.com/problems/koko-eating-bananas/) | Medium |
+| 922 | Sort Array By Parity II | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/sort_array_by_parity_ii.rs) | [Leetcode](https://leetcode.com/problems/sort-array-by-parity-ii/) | Easy |
 | 929 | Unique Email Addresses | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/num_unique_emails.rs) | [Leetcode](https://leetcode.com/problems/unique-email-addresses/) | Easy |
 | 1035 | Uncrossed Lines | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/max_uncrossed_lines.rs) | [Leetcode](https://leetcode.com/problems/uncrossed-lines/) | Medium |
 | 1134 | Armstrong Number | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/is_good_array.rs) | [Leetcode](https://leetcode.com/problems/armstrong-number/) | Easy |

@@ -8,6 +8,7 @@ mod num_distinct;
 mod num_unique_emails;
 mod shortest_distance;
 mod shortest_path;
+mod sort_array_by_parity_ii;
 mod spiral_order;
 mod tictactoe;
 mod tribonacci;
