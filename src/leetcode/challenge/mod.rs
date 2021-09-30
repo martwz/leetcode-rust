@@ -1,4 +1,5 @@
 mod break_palindrome;
+mod can_partition_k_subsets;
 mod find_max_consecutive_ones;
 mod intersect;
 mod max_length;
