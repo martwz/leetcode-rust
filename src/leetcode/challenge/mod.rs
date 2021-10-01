@@ -2,6 +2,7 @@ mod break_palindrome;
 mod can_partition_k_subsets;
 mod find_max_consecutive_ones;
 mod intersect;
+mod longest_common_subsequence;
 mod max_length;
 mod max_sub_array_len;
 mod minmax_gas_dist;
