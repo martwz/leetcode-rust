@@ -43,9 +43,11 @@ fn gen_table() -> Result<()> {
                     entry.3 = m.get(1).unwrap().as_str().to_string();
                     entry.4 = f_path.clone();
                 }
-            }
-            if entry.0 != 0 {
-                entries.push(entry);
+
+                if entry.0 != 0 && !entry.3.is_empty() {
+                    entries.push(entry.clone());
+                    entry = (0, "".to_string(), "".to_string(), "".to_string(), "".to_string());
+                }
             }
         }
     }

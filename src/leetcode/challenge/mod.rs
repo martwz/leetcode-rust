@@ -1,5 +1,7 @@
 mod break_palindrome;
+mod calculate_minimum_hp;
 mod can_partition_k_subsets;
+mod cherry_pickup;
 mod find_max_consecutive_ones;
 mod intersect;
 mod longest_common_subsequence;
