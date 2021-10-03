@@ -53,6 +53,11 @@ fn gen_table() -> Result<()> {
     }
 
     entries.sort();
+    println!("## Solutions ({}) ", entries.len());
+    println!(
+        r#"| No. | Title | Solution | Problem | Difficulty |
+    |:---:|:------|:--------:|:-------:|:----------:|"#
+    );
     for entry in entries {
         println!(
             "| {} | {} | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/{}) | [Leetcode]({}) | {} |",

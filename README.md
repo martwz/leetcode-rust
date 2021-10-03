@@ -6,7 +6,7 @@
 
 LeetCode is a website that has programming-related questions that are designed to be solved in a limited amount of time. This repository is a collection of some of my solutions written in [Rust](https://www.rust-lang.org/).
 
-## Solutions
+## Solutions (49) 
 | No. | Title | Solution | Problem | Difficulty |
 |:---:|:------|:--------:|:-------:|:----------:|
 | 1 | Two Sum | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/two_sum.rs) | [Leetcode](https://leetcode.com/problems/two-sum/) | Easy |
@@ -50,7 +50,11 @@ LeetCode is a website that has programming-related questions that are designed t
 | 1293 | Shortest Path in a Grid with Obstacles Elimination | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/shortest_path.rs) | [Leetcode](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) | Hard |
 | 1328 | Break a Palindrome | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/break_palindrome.rs) | [Leetcode](https://leetcode.com/problems/break-a-palindrome/) | Medium |
 | 1457 | Pseudo-Palindromic Paths in a Binary Tree | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/pseudo_palindromic_paths.rs) | [Leetcode](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/) | Easy |
+| 1801 | Number of Orders in the Backlog | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/get_number_of_backlog_orders.rs) | [Leetcode](https://leetcode.com/problems/number-of-orders-in-the-backlog/) | Medium |
+| 1962 | Remove Stones to Minimize the Total | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/min_stone_sum.rs) | [Leetcode](https://leetcode.com/problems/remove-stones-to-minimize-the-total/) | Medium |
 | 2022 | Convert 1D Array Into 2D Array | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/contest/biweekly_62.rs) | [Leetcode](https://leetcode.com/problems/convert-1d-array-into-2d-array/) | Easy |
 | 2023 | Number of Pairs of Strings With Concatenation Equal to Target | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/contest/biweekly_62.rs) | [Leetcode](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/) | Medium |
 | 2024 | Maximize the Confusion of an Exam | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/contest/biweekly_62.rs) | [Leetcode](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/) | Medium |
 | 2025 | Maximum Number of Ways to Partition an Array | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/contest/biweekly_62.rs) | [Leetcode](https://leetcode.com/problems/maximum-number-of-ways-to-partition-an-array/) | Hard |
+| 2027 | Minimum Moves to Convert String | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/contest/weekly_261.rs) | [Leetcode](https://leetcode.com/problems/minimum-moves-to-convert-string/) | Easy |
+| 2028 | Find Missing Observations | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/contest/weekly_261.rs) | [Leetcode](https://leetcode.com/problems/find-missing-observations/) | Medium |
