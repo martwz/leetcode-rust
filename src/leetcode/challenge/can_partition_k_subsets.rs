@@ -8,7 +8,7 @@ impl Solution {
       }
       let target = sum / k;
       
-      nums.sort();
+      nums.sort_unstable();
       if nums[nums.len() - 1] > target {
           return false;
       }

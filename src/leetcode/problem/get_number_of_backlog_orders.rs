@@ -63,20 +63,18 @@ impl Solution {
                         buy_backlog.push(o.clone());
                         break;
                     }
-                } else {
-                    if !buy_backlog.is_empty() && buy_backlog.peek().unwrap().price >= o.price * -1 {
-                        let mut buy_order = buy_backlog.pop().unwrap();
-                        let amount = i32::min(buy_order.amount, o.amount);
-                        o.amount -= amount;
-                        buy_order.amount -= amount;
+                } else if !buy_backlog.is_empty() && buy_backlog.peek().unwrap().price >= o.price * -1 {
+                    let mut buy_order = buy_backlog.pop().unwrap();
+                    let amount = i32::min(buy_order.amount, o.amount);
+                    o.amount -= amount;
+                    buy_order.amount -= amount;
 
-                        if buy_order.amount > 0 {
-                            buy_backlog.push(buy_order);
-                        }
-                    } else {
-                        sell_backlog.push(o.clone());
-                        break;
+                    if buy_order.amount > 0 {
+                        buy_backlog.push(buy_order);
                     }
+                } else {
+                    sell_backlog.push(o.clone());
+                    break;
                 }
             }
         }

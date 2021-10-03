@@ -20,15 +20,13 @@ impl Solution1 {
         while r < n {
             if r - l < 2 {
                 r += 1;
+            } else if arr[l] == 1 {
+                arr[l] = 0;
+                arr[l + 1] = 0;
+                arr[l + 2] = 0;
+                moves += 1;
             } else {
-                if arr[l] == 1 {
-                    arr[l] = 0;
-                    arr[l + 1] = 0;
-                    arr[l + 2] = 0;
-                    moves += 1;
-                } else {
-                    l += 1;
-                }
+                l += 1;
             }
 
             if r == n && (arr[r - 1] == 1 || arr[r - 2] == 1 || arr[r - 3] == 1) {
@@ -44,7 +42,7 @@ impl Solution1 {
 // https://leetcode.com/problems/find-missing-observations/
 impl Solution2 {
     pub fn missing_rolls(rolls: Vec<i32>, mean: i32, n: i32) -> Vec<i32> {
-        if rolls.len() == 0 || n == 0 {
+        if rolls.is_empty() || n == 0 {
             return vec![];
         }
 
@@ -77,7 +75,7 @@ impl Solution2 {
                 }
             }
 
-            return missing_rolls;
+            missing_rolls
         } else {
             return vec![];
         }

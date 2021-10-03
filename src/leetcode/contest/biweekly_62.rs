@@ -27,10 +27,8 @@ impl Solution2 {
         let mut ans = 0;
         for i in 0..nums.len() {
             for j in 0..nums.len() {
-                if i != j {
-                    if [nums[i].clone(), nums[j].clone()].concat() == target {
-                        ans += 1;
-                    }
+                if i != j && [nums[i].clone(), nums[j].clone()].concat() == target {
+                    ans += 1;
                 }
             }
         }
@@ -97,8 +95,8 @@ impl Solution4 {
         let mut part1 = 0;
         let mut part2 = nums.iter().sum::<i32>();
         for i in 0..nums.len() {
-            part1 = part1 + nums[i];
-            part2 = part2 - nums[i];
+            part1 += nums[i];
+            part2 -= nums[i];
 
             pre_calcs.push((part1, part2, i));
         }

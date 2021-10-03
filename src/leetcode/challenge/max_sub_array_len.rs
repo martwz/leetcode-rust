@@ -17,12 +17,10 @@ impl Solution {
                 max_length = max_length.max(i - j);
             }
 
-            if !sum_to_index_mapping.contains_key(&curr_sum) {
-                sum_to_index_mapping.insert(curr_sum, i);
-            }
+            sum_to_index_mapping.entry(curr_sum).or_insert(i);
         }
 
-        return max_length as i32;
+        max_length as i32
     }
 }
 

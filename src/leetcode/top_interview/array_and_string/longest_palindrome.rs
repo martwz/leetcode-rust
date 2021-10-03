@@ -18,19 +18,17 @@ impl Solution {
         let mut max_len = 0;
         for end in 1..n {
             for start in 0..end {
-                if chars[start] == chars[end] {
-                    if end - start == 1 || dp[start + 1][end - 1] {
-                        dp[start][end] = true;
-                        if max_len < end - start + 1 {
-                            max_len = end - start + 1;
-                            ans = chars[start..=end].iter().collect::<String>();
-                        }
+                if chars[start] == chars[end] && (end - start == 1 || dp[start + 1][end - 1]) {
+                    dp[start][end] = true;
+                    if max_len < end - start + 1 {
+                        max_len = end - start + 1;
+                        ans = chars[start..=end].iter().collect::<String>();
                     }
                 }
             }
         }
 
-        return ans;
+        ans
     }
 }
 

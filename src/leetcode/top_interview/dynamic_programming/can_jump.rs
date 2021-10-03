@@ -8,7 +8,7 @@ impl Solution {
         pos.push_back(0);
         let mut jumps = nums.clone();
 
-        while pos.len() > 0 && *pos.back().unwrap() < nums.len() - 1 {
+        while !pos.is_empty() && *pos.back().unwrap() < nums.len() - 1 {
             let mut p = *pos.back().unwrap();
             if jumps[p] == 0 && pos.len() > 1 {
                 pos.pop_back();
@@ -22,7 +22,7 @@ impl Solution {
             }
         }
 
-        return pos.len() > 0 && *pos.back().unwrap() >= nums.len() - 1;
+        return !pos.is_empty() && *pos.back().unwrap() >= nums.len() - 1;
     }
 }
 

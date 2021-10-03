@@ -26,7 +26,7 @@ impl Solution {
             }
         }
 
-        return ans;
+        ans
     }
 }
 

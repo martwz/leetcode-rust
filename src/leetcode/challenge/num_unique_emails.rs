@@ -9,7 +9,7 @@ impl Solution {
         for email in emails {
             let email: Vec<_> = email.split('@').collect();
             let mut vhost: String = email[0].to_string().replace(".", "");
-            if vhost.contains("+") {
+            if vhost.contains('+') {
                 vhost = vhost.split('+').next().unwrap().to_string();
             }
 
@@ -18,7 +18,7 @@ impl Solution {
             set.insert(format!("{}@{}", vhost, domain));
         }
 
-        return set.len() as i32;
+        set.len() as i32
     }
 }
 

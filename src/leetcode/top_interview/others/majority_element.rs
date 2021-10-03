@@ -18,7 +18,7 @@ impl Solution {
             }
         }
 
-        return cand.unwrap();
+        cand.unwrap()
     }
 }
 

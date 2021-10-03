@@ -22,22 +22,20 @@ impl Solution {
                 return *memo.get(key).unwrap();
             }
 
-            let dd = dp(&grid, &n, i1 + 1, j1, i2 + 1, j2, memo);
-            let dr = dp(&grid, &n, i1 + 1, j1, i2, j2 + 1, memo);
-            let rd = dp(&grid, &n, i1, j1 + 1, i2 + 1, j2, memo);
-            let rr = dp(&grid, &n, i1, j1 + 1, i2, j2 + 1, memo);
+            let dd = dp(grid, n, i1 + 1, j1, i2 + 1, j2, memo);
+            let dr = dp(grid, n, i1 + 1, j1, i2, j2 + 1, memo);
+            let rd = dp(grid, n, i1, j1 + 1, i2 + 1, j2, memo);
+            let rr = dp(grid, n, i1, j1 + 1, i2, j2 + 1, memo);
 
             let comb = i32::max(dd, i32::max(dr, i32::max(rd, rr)));
 
             let out;
             if comb == -1 {
                 out = -1;
+            } else if i1 == i2 && j1 == j2 {
+                out = comb + grid[i1][j1];
             } else {
-                if i1 == i2 && j1 == j2 {
-                    out = comb + grid[i1][j1];
-                } else {
-                    out = comb + grid[i1][j1] + grid[i2][j2];
-                }
+                out = comb + grid[i1][j1] + grid[i2][j2];
             }
 
             memo.insert(*key, out);

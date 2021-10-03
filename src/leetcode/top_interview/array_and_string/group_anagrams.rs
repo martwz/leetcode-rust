@@ -9,7 +9,7 @@ impl Solution {
 
         for str in strs {
             let mut chars = str.chars().collect::<Vec<char>>();
-            chars.sort();
+            chars.sort_unstable();
             let key: String = chars.into_iter().collect();
             if let Some(v) = map.get_mut(&key) {
                 v.push(str);
@@ -21,7 +21,7 @@ impl Solution {
         for (_, v) in map {
             ans.push(v);
         }
-        return ans;
+        ans
     }
 }
 
