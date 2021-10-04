@@ -3,26 +3,24 @@ use std::collections::VecDeque;
 // 55. Jump Game, Medium
 // https://leetcode.com/problems/jump-game/
 impl Solution {
-    pub fn can_jump(nums: Vec<i32>) -> bool {
+    pub fn can_jump(mut nums: Vec<i32>) -> bool {
+        let n = nums.len() - 1;
         let mut pos: VecDeque<usize> = VecDeque::new();
         pos.push_back(0);
-        let mut jumps = nums.clone();
 
-        while !pos.is_empty() && *pos.back().unwrap() < nums.len() - 1 {
-            let mut p = *pos.back().unwrap();
-            if jumps[p] == 0 && pos.len() > 1 {
-                pos.pop_back();
-                p = *pos.back().unwrap();
-                jumps[p] -= 1;
-            } else if jumps[p] == 0 && pos.len() <= 1 {
-                return false;
+        while pos.len() > 0 && pos.back().unwrap() < &n {
+            let curr = *pos.back().unwrap();
+            let next = nums[curr] as usize;
+
+            if next == 0 {
+                &pos.pop_back();
             } else {
-                p += jumps[p] as usize;
-                pos.push_back(p);
+                nums[curr] -= 1;
+                pos.push_back(curr + next);
             }
         }
 
-        return !pos.is_empty() && *pos.back().unwrap() >= nums.len() - 1;
+        pos.len() > 0 && pos.back().unwrap() >= &n
     }
 }
 
@@ -46,5 +44,10 @@ mod tests {
     #[test]
     fn test_can_jump3() {
         assert_eq!(Solution::can_jump(vec![3, 0, 8, 2, 0, 0, 1]), true);
+    }
+
+    #[test]
+    fn test_can_jump4() {
+        assert_eq!(Solution::can_jump(vec![0]), true);
     }
 }
