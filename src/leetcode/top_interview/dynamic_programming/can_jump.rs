@@ -8,19 +8,19 @@ impl Solution {
         let mut pos: VecDeque<usize> = VecDeque::new();
         pos.push_back(0);
 
-        while pos.len() > 0 && pos.back().unwrap() < &n {
+        while !pos.is_empty() && pos.back().unwrap() < &n {
             let curr = *pos.back().unwrap();
             let next = nums[curr] as usize;
 
             if next == 0 {
-                &pos.pop_back();
+                pos.pop_back();
             } else {
                 nums[curr] -= 1;
                 pos.push_back(curr + next);
             }
         }
 
-        pos.len() > 0 && pos.back().unwrap() >= &n
+        !pos.is_empty() && pos.back().unwrap() >= &n
     }
 }
 

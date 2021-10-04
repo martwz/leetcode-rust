@@ -25,11 +25,7 @@ impl Solution {
                 }
 
                 return bfs(node1.borrow().left.clone(), node2.borrow().left.clone()) && bfs(node1.borrow().right.clone(), node2.borrow().right.clone());
-            } else if node1.is_none() && node2.is_none() {
-                return true;
-            } else {
-                return false;
-            }
+            } else { node1.is_none() && node2.is_none() }
         }
 
         bfs(p, q)
