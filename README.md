@@ -6,17 +6,20 @@
 
 LeetCode is a website that has programming-related questions that are designed to be solved in a limited amount of time. This repository is a collection of some of my solutions written in [Rust](https://www.rust-lang.org/).
 
-## Solutions (62) 
+## Solutions (67) 
 | No. | Title | Solution | Problem | Difficulty |
 |:---:|:------|:--------:|:-------:|:----------:|
 | 1 | Two Sum | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/two_sum.rs) | [Leetcode](https://leetcode.com/problems/two-sum/) | Easy |
 | 2 | Add Two Numbers | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/top_interview/linked_list/add_two_numbers.rs) | [Leetcode](https://leetcode.com/problems/add-two-numbers/) | Medium |
 | 3 | Longest Substring Without Repeating Characters | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/top_interview/array_and_string/length_of_longest_substring.rs) | [Leetcode](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium |
 | 5 | Longest Palindromic Substring | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/top_interview/array_and_string/longest_palindrome.rs) | [Leetcode](https://leetcode.com/problems/longest-palindromic-substring/) | Medium |
+| 31 | Next Permutation | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/next_permutation.rs) | [Leetcode](https://leetcode.com/problems/next-permutation/) | Medium |
+| 37 | Sudoku Solver | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/solve_sudoku.rs) | [Leetcode](https://leetcode.com/problems/sudoku-solver/) | Hard |
 | 49 | Group Anagrams | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/top_interview/array_and_string/group_anagrams.rs) | [Leetcode](https://leetcode.com/problems/group-anagrams/) | Medium |
 | 54 | Spiral Matrix | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/spiral_order.rs) | [Leetcode](https://leetcode.com/problems/spiral-matrix/) | Medium |
 | 55 | Jump Game | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/top_interview/dynamic_programming/can_jump.rs) | [Leetcode](https://leetcode.com/problems/jump-game/) | Medium |
 | 62 | Unique Paths | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/unique_paths.rs) | [Leetcode](https://leetcode.com/problems/unique-paths/) | Medium |
+| 70 | Climbing Stairs | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/climb_stairs.rs) | [Leetcode](https://leetcode.com/problems/climbing-stairs/) | Easy |
 | 72 | Edit Distance | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/min_distance.rs) | [Leetcode](https://leetcode.com/problems/edit-distance/) | Hard |
 | 73 | Set Matrix Zeroes | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/top_interview/array_and_string/set_zeroes.rs) | [Leetcode](https://leetcode.com/problems/set-matrix-zeroes/submissions/) | Medium |
 | 75 | Sort Colors | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/top_interview/sorting/sort_colors.rs) | [Leetcode](https://leetcode.com/problems/sort-colors/) | Medium |
@@ -38,6 +41,7 @@ LeetCode is a website that has programming-related questions that are designed t
 | 350 | Intersection of Two Arrays II | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/intersect.rs) | [Leetcode](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | Easy |
 | 368 | Largest Divisible Subset | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/largest_divisible_subset.rs) | [Leetcode](https://leetcode.com/problems/largest-divisible-subset/) | Medium |
 | 435 | Non-overlapping Intervals | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/erase_overlap_intervals.rs) | [Leetcode](https://leetcode.com/problems/non-overlapping-intervals/) | Medium |
+| 442 | Find All Duplicates in an Array | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/find_duplicates.rs) | [Leetcode](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | Medium |
 | 452 | Minimum Number of Arrows to Burst Balloons | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/find_min_arrow_shots.rs) | [Leetcode](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | Medium |
 | 463 | Island Perimeter | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/island_perimeter.rs) | [Leetcode](https://leetcode.com/problems/island-perimeter/) | Easy |
 | 485 | Max Consecutive Ones | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/find_max_consecutive_ones.rs) | [Leetcode](https://leetcode.com/problems/max-consecutive-ones/) | Easy |
@@ -62,6 +66,7 @@ LeetCode is a website that has programming-related questions that are designed t
 | 1293 | Shortest Path in a Grid with Obstacles Elimination | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/shortest_path.rs) | [Leetcode](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) | Hard |
 | 1315 | Sum of Nodes with Even-Valued Grandparent | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/sum_even_grandparent.rs) | [Leetcode](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/) | Medium |
 | 1328 | Break a Palindrome | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/break_palindrome.rs) | [Leetcode](https://leetcode.com/problems/break-a-palindrome/) | Medium |
+| 1428 | Leftmost Column with at Least a One | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/left_most_column_with_one.rs) | [Leetcode](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/) | Medium |
 | 1457 | Pseudo-Palindromic Paths in a Binary Tree | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/pseudo_palindromic_paths.rs) | [Leetcode](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/) | Easy |
 | 1801 | Number of Orders in the Backlog | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/get_number_of_backlog_orders.rs) | [Leetcode](https://leetcode.com/problems/number-of-orders-in-the-backlog/) | Medium |
 | 1962 | Remove Stones to Minimize the Total | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/min_stone_sum.rs) | [Leetcode](https://leetcode.com/problems/remove-stones-to-minimize-the-total/) | Medium |
