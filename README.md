@@ -6,7 +6,7 @@
 
 LeetCode is a website that has programming-related questions that are designed to be solved in a limited amount of time. This repository is a collection of some of my solutions written in [Rust](https://www.rust-lang.org/).
 
-## Solutions (67) 
+## Solutions (71) 
 | No. | Title | Solution | Problem | Difficulty |
 |:---:|:------|:--------:|:-------:|:----------:|
 | 1 | Two Sum | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/two_sum.rs) | [Leetcode](https://leetcode.com/problems/two-sum/) | Easy |
@@ -16,6 +16,8 @@ LeetCode is a website that has programming-related questions that are designed t
 | 31 | Next Permutation | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/next_permutation.rs) | [Leetcode](https://leetcode.com/problems/next-permutation/) | Medium |
 | 37 | Sudoku Solver | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/solve_sudoku.rs) | [Leetcode](https://leetcode.com/problems/sudoku-solver/) | Hard |
 | 49 | Group Anagrams | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/top_interview/array_and_string/group_anagrams.rs) | [Leetcode](https://leetcode.com/problems/group-anagrams/) | Medium |
+| 51 | N-Queens | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/solve_n_queens.rs) | [Leetcode](https://leetcode.com/problems/n-queens/) | Hard |
+| 52 | N-Queens II | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/total_n_queens.rs) | [Leetcode](https://leetcode.com/problems/n-queens-ii/) | Hard |
 | 54 | Spiral Matrix | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/spiral_order.rs) | [Leetcode](https://leetcode.com/problems/spiral-matrix/) | Medium |
 | 55 | Jump Game | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/top_interview/dynamic_programming/can_jump.rs) | [Leetcode](https://leetcode.com/problems/jump-game/) | Medium |
 | 62 | Unique Paths | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/unique_paths.rs) | [Leetcode](https://leetcode.com/problems/unique-paths/) | Medium |
@@ -55,6 +57,7 @@ LeetCode is a website that has programming-related questions that are designed t
 | 875 | Koko Eating Bananas | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/min_eating_speed.rs) | [Leetcode](https://leetcode.com/problems/koko-eating-bananas/) | Medium |
 | 922 | Sort Array By Parity II | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/sort_array_by_parity_ii.rs) | [Leetcode](https://leetcode.com/problems/sort-array-by-parity-ii/) | Easy |
 | 929 | Unique Email Addresses | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/num_unique_emails.rs) | [Leetcode](https://leetcode.com/problems/unique-email-addresses/) | Easy |
+| 930 | Binary Subarrays With Sum | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/num_subarrays_with_sum.rs) | [Leetcode](https://leetcode.com/problems/binary-subarrays-with-sum/) | Medium |
 | 991 | Broken Calculator | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/broken_calc.rs) | [Leetcode](https://leetcode.com/problems/broken-calculator/) | Medium |
 | 1035 | Uncrossed Lines | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/max_uncrossed_lines.rs) | [Leetcode](https://leetcode.com/problems/uncrossed-lines/) | Medium |
 | 1134 | Armstrong Number | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/is_good_array.rs) | [Leetcode](https://leetcode.com/problems/armstrong-number/) | Easy |
@@ -68,6 +71,7 @@ LeetCode is a website that has programming-related questions that are designed t
 | 1328 | Break a Palindrome | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/break_palindrome.rs) | [Leetcode](https://leetcode.com/problems/break-a-palindrome/) | Medium |
 | 1428 | Leftmost Column with at Least a One | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/left_most_column_with_one.rs) | [Leetcode](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/) | Medium |
 | 1457 | Pseudo-Palindromic Paths in a Binary Tree | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/pseudo_palindromic_paths.rs) | [Leetcode](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/) | Easy |
+| 1570 | Dot Product of Two Sparse Vectors | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/dot_product.rs) | [Leetcode](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/) | Medium |
 | 1801 | Number of Orders in the Backlog | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/get_number_of_backlog_orders.rs) | [Leetcode](https://leetcode.com/problems/number-of-orders-in-the-backlog/) | Medium |
 | 1962 | Remove Stones to Minimize the Total | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/min_stone_sum.rs) | [Leetcode](https://leetcode.com/problems/remove-stones-to-minimize-the-total/) | Medium |
 | 2022 | Convert 1D Array Into 2D Array | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/contest/biweekly_62.rs) | [Leetcode](https://leetcode.com/problems/convert-1d-array-into-2d-array/) | Easy |
