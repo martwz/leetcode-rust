@@ -1,0 +1,1 @@
+automod::dir!("src/leetcode/interview/amazon");
