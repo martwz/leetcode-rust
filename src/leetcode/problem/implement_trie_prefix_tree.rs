@@ -22,16 +22,11 @@ impl Trie {
     fn insert(&mut self, word: String) {
         let mut current = &mut self.root;
         for c in word.chars() {
-            if !current.children.contains_key(&c) {
-                current.children.insert(
-                    c,
-                    CharNode {
+            current.children.entry(c).or_insert(CharNode {
                         char: c,
                         is_word: false,
                         children: HashMap::new(),
-                    },
-                );
-            }
+                    });
             current = current.children.get_mut(&c).unwrap();
         }
         current.is_word = true;

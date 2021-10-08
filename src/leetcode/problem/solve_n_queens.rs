@@ -31,16 +31,16 @@ impl Solution {
                 }
             }
 
-            return true;
+            true
         }
 
         let mut ans: Vec<Vec<Vec<i32>>> = vec![];
         fn backtracking(ans: &mut Vec<Vec<Vec<i32>>>, board: &mut Vec<Vec<i32>>, n: usize, placed: usize, i: usize, j: usize) {
             if placed == n {
                 ans.push(board.clone());
-                return;
+                
             } else if i == n {
-                return;
+                
             } else if j == n {
                 backtracking(ans, board, n, placed, i + 1, 0);
             } else {

@@ -10,7 +10,7 @@ impl Solution {
             for i in 4..=n as usize {
                 dp[i] = dp[i - 1] + dp[i - 2];
             }
-            return dp[n as usize];
+            dp[n as usize]
         }
 }
 

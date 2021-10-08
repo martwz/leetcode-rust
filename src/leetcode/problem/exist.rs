@@ -2,7 +2,7 @@ use std::collections::{HashSet, VecDeque};
 
 impl Solution {
     pub fn exist(board: Vec<Vec<char>>, word: String) -> bool {
-        if word.len() == 0 {
+        if word.is_empty() {
             return true;
         }
 
@@ -30,7 +30,7 @@ impl Solution {
             seen[i as usize][j as usize] = 1;
             let dirs = vec![(0, 1), (0, -1), (1, 0), (-1, 0)];
             for dir in dirs.iter() {
-                let pos = (i + dir.0, j + dir.1);
+                let _pos = (i + dir.0, j + dir.1);
                 dfs(board, word, idx + 1, (i + dir.0, j + dir.1), seen, ans);
             }
             seen[i as usize][j as usize] = 0;

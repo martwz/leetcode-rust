@@ -6,7 +6,7 @@ impl Solution {
         let mut digit_logs = vec![];
 
         for log in logs {
-            let chunks = log.split(" ").map(|s| s.to_string()).collect::<Vec<String>>();
+            let chunks = log.split(' ').map(|s| s.to_string()).collect::<Vec<String>>();
             let id = chunks[0].clone();
             let msg = &chunks[1..];
             let kind = {
@@ -27,7 +27,7 @@ impl Solution {
         letter_logs.sort_by(|a, b| {
             let (id_a, msg_a) = a;
             let (id_b, msg_b) = b;
-            msg_a.cmp(&msg_b).then_with(|| id_a.cmp(&id_b))
+            msg_a.cmp(msg_b).then_with(|| id_a.cmp(id_b))
         });
 
         letter_logs.into_iter().map(|(id, msg)| format!("{} {}", id, msg)).into_iter().chain(digit_logs).collect()

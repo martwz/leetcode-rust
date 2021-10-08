@@ -36,7 +36,7 @@ impl Solution {
             }
         });
 
-        let mut ans = ans.iter().map(|f| f.clone()).collect::<Vec<String>>();
+        let mut ans = ans.iter().cloned().collect::<Vec<String>>();
         ans.sort_unstable();
         ans
     }
