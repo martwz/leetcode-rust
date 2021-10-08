@@ -6,7 +6,7 @@
 
 LeetCode is a website that has programming-related questions that are designed to be solved in a limited amount of time. This repository is a collection of some of my solutions written in [Rust](https://www.rust-lang.org/).
 
-## Solutions (76) 
+## Solutions (80) 
 | No. | Title | Solution | Problem | Difficulty |
 |:---:|:------|:--------:|:-------:|:----------:|
 | 1 | Two Sum | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/two_sum.rs) | [Leetcode](https://leetcode.com/problems/two-sum/) | Easy |
@@ -49,6 +49,7 @@ LeetCode is a website that has programming-related questions that are designed t
 | 463 | Island Perimeter | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/island_perimeter.rs) | [Leetcode](https://leetcode.com/problems/island-perimeter/) | Easy |
 | 485 | Max Consecutive Ones | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/find_max_consecutive_ones.rs) | [Leetcode](https://leetcode.com/problems/max-consecutive-ones/) | Easy |
 | 495 | Teemo Attacking | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/find_poisoned_duration.rs) | [Leetcode](https://leetcode.com/problems/teemo-attacking/) | Easy |
+| 547 | Number of Provinces | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/interview/amazon/find_circle_num.rs) | [Leetcode](https://leetcode.com/problems/number-of-provinces/) | Medium |
 | 698 | Partition to K Equal Sum Subsets | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/can_partition_k_subsets.rs) | [Leetcode](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) | Medium |
 | 713 | Subarray Product Less Than K | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/num_subarray_product_less_than_k.rs) | [Leetcode](https://leetcode.com/problems/subarray-product-less-than-k/) | Medium |
 | 725 | Split Linked List in Parts | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/split_list_to_parts.rs) | [Leetcode](https://leetcode.com/problems/split-linked-list-in-parts/) | Medium |
@@ -68,7 +69,9 @@ LeetCode is a website that has programming-related questions that are designed t
 | 1137 | N-th Tribonacci Number | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/tribonacci.rs) | [Leetcode](https://leetcode.com/problems/n-th-tribonacci-number/) | Easy |
 | 1143 | Longest Common Subsequence | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/longest_common_subsequence.rs) | [Leetcode](https://leetcode.com/problems/longest-common-subsequence/) | Medium |
 | 1161 | Maximum Level Sum of a Binary Tree | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/max_level_sum.rs) | [Leetcode](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/) | Medium |
+| 1167 | Minimum Cost to Connect Sticks | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/interview/amazon/connect_sticks.rs) | [Leetcode](https://leetcode.com/problems/minimum-cost-to-connect-sticks/) | Medium |
 | 1239 | Maximum Length of a Concatenated String with Unique Characters | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/max_length.rs) | [Leetcode](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/) | Medium |
+| 1268 | Search Suggestions System | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/interview/amazon/suggested_products.rs) | [Leetcode](https://leetcode.com/problems/search-suggestions-system/) | Medium |
 | 1275 | Find Winner on a Tic Tac Toe Game | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/tictactoe.rs) | [Leetcode](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/) | Easy |
 | 1293 | Shortest Path in a Grid with Obstacles Elimination | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/shortest_path.rs) | [Leetcode](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) | Hard |
 | 1315 | Sum of Nodes with Even-Valued Grandparent | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/sum_even_grandparent.rs) | [Leetcode](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/) | Medium |
@@ -77,6 +80,7 @@ LeetCode is a website that has programming-related questions that are designed t
 | 1457 | Pseudo-Palindromic Paths in a Binary Tree | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/pseudo_palindromic_paths.rs) | [Leetcode](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/) | Easy |
 | 1570 | Dot Product of Two Sparse Vectors | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/dot_product.rs) | [Leetcode](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/) | Medium |
 | 1604 | Alert Using Same Key-Card Three or More Times in a One Hour Period | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/interview/robinhood/alert_names.rs) | [Leetcode](https://leetcode.com/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/) | Medium |
+| 1710 | Maximum Units on a Truck | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/interview/amazon/maximum_units.rs) | [Leetcode](https://leetcode.com/problems/maximum-units-on-a-truck/) | Easy |
 | 1801 | Number of Orders in the Backlog | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/get_number_of_backlog_orders.rs) | [Leetcode](https://leetcode.com/problems/number-of-orders-in-the-backlog/) | Medium |
 | 1962 | Remove Stones to Minimize the Total | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/min_stone_sum.rs) | [Leetcode](https://leetcode.com/problems/remove-stones-to-minimize-the-total/) | Medium |
 | 2022 | Convert 1D Array Into 2D Array | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/contest/biweekly_62.rs) | [Leetcode](https://leetcode.com/problems/convert-1d-array-into-2d-array/) | Easy |
