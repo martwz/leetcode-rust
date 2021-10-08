@@ -17,7 +17,7 @@ impl Solution {
         }
 
         for i in 0..n {
-            if is_connected[i].len() > 0 {
+            if !is_connected[i].is_empty() {
                 provinces += 1;
             }
             bfs(i, &mut is_connected);
