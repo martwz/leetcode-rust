@@ -6,7 +6,7 @@
 
 LeetCode is a website that has programming-related questions that are designed to be solved in a limited amount of time. This repository is a collection of some of my solutions written in [Rust](https://www.rust-lang.org/).
 
-## Solutions (80) 
+## Solutions (82) 
 | No. | Title | Solution | Problem | Difficulty |
 |:---:|:------|:--------:|:-------:|:----------:|
 | 1 | Two Sum | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/two_sum.rs) | [Leetcode](https://leetcode.com/problems/two-sum/) | Easy |
@@ -49,6 +49,7 @@ LeetCode is a website that has programming-related questions that are designed t
 | 463 | Island Perimeter | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/island_perimeter.rs) | [Leetcode](https://leetcode.com/problems/island-perimeter/) | Easy |
 | 485 | Max Consecutive Ones | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/find_max_consecutive_ones.rs) | [Leetcode](https://leetcode.com/problems/max-consecutive-ones/) | Easy |
 | 495 | Teemo Attacking | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/find_poisoned_duration.rs) | [Leetcode](https://leetcode.com/problems/teemo-attacking/) | Easy |
+| 516 | Longest Palindromic Subsequence | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/longest_palindrome_subseq.rs) | [Leetcode](https://leetcode.com/problems/longest-palindromic-subsequence/) | Medium |
 | 547 | Number of Provinces | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/interview/amazon/find_circle_num.rs) | [Leetcode](https://leetcode.com/problems/number-of-provinces/) | Medium |
 | 698 | Partition to K Equal Sum Subsets | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/can_partition_k_subsets.rs) | [Leetcode](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) | Medium |
 | 713 | Subarray Product Less Than K | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/num_subarray_product_less_than_k.rs) | [Leetcode](https://leetcode.com/problems/subarray-product-less-than-k/) | Medium |
@@ -70,6 +71,7 @@ LeetCode is a website that has programming-related questions that are designed t
 | 1143 | Longest Common Subsequence | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/longest_common_subsequence.rs) | [Leetcode](https://leetcode.com/problems/longest-common-subsequence/) | Medium |
 | 1161 | Maximum Level Sum of a Binary Tree | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/max_level_sum.rs) | [Leetcode](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/) | Medium |
 | 1167 | Minimum Cost to Connect Sticks | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/interview/amazon/connect_sticks.rs) | [Leetcode](https://leetcode.com/problems/minimum-cost-to-connect-sticks/) | Medium |
+| 1216 | Valid Palindrome III | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/is_valid_palindrome.rs) | [Leetcode](https://leetcode.com/problems/valid-palindrome-iii/) | Hard |
 | 1239 | Maximum Length of a Concatenated String with Unique Characters | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/max_length.rs) | [Leetcode](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/) | Medium |
 | 1268 | Search Suggestions System | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/interview/amazon/suggested_products.rs) | [Leetcode](https://leetcode.com/problems/search-suggestions-system/) | Medium |
 | 1275 | Find Winner on a Tic Tac Toe Game | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/tictactoe.rs) | [Leetcode](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/) | Easy |
