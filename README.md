@@ -6,7 +6,7 @@
 
 LeetCode is a website that has programming-related questions that are designed to be solved in a limited amount of time. This repository is a collection of some of my solutions written in [Rust](https://www.rust-lang.org/).
 
-## Solutions (82) 
+## Solutions (84) 
 | No. | Title | Solution | Problem | Difficulty |
 |:---:|:------|:--------:|:-------:|:----------:|
 | 1 | Two Sum | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/two_sum.rs) | [Leetcode](https://leetcode.com/problems/two-sum/) | Easy |
@@ -34,6 +34,7 @@ LeetCode is a website that has programming-related questions that are designed t
 | 174 | Dungeon Game | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/calculate_minimum_hp.rs) | [Leetcode](https://leetcode.com/problems/dungeon-game/) | Hard |
 | 200 | Number of Islands | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/num_islands.rs) | [Leetcode](https://leetcode.com/problems/number-of-islands/) | Medium |
 | 208 | Implement Trie (Prefix Tree) | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/implement_trie_prefix_tree.rs) | [Leetcode](https://leetcode.com/problems/implement-trie-prefix-tree/) | Medium |
+| 212 | Word Search II | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/find_words.rs) | [Leetcode](https://leetcode.com/problems/word-search-ii/) | Hard |
 | 230 | Kth Smallest Element in a BST | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/kth_smallest.rs) | [Leetcode](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | Medium |
 | 242 | Valid Anagram | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/is_anagram.rs) | [Leetcode](https://leetcode.com/problems/valid-anagram/) | Easy |
 | 282 | Expression Add Operators | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/add_operators.rs) | [Leetcode](https://leetcode.com/problems/expression-add-operators/) | Hard |
@@ -67,6 +68,7 @@ LeetCode is a website that has programming-related questions that are designed t
 | 1035 | Uncrossed Lines | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/max_uncrossed_lines.rs) | [Leetcode](https://leetcode.com/problems/uncrossed-lines/) | Medium |
 | 1041 | Robot Bounded In Circle | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/interview/amazon/is_robot_bounded.rs) | [Leetcode](https://leetcode.com/problems/robot-bounded-in-circle/submissions/) | Medium |
 | 1134 | Armstrong Number | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/is_good_array.rs) | [Leetcode](https://leetcode.com/problems/armstrong-number/) | Easy |
+| 1135 | Connecting Cities With Minimum Cost | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/interview/amazon/minimum_cost.rs) | [Leetcode](https://leetcode.com/problems/connecting-cities-with-minimum-cost/) | Medium |
 | 1137 | N-th Tribonacci Number | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/tribonacci.rs) | [Leetcode](https://leetcode.com/problems/n-th-tribonacci-number/) | Easy |
 | 1143 | Longest Common Subsequence | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/longest_common_subsequence.rs) | [Leetcode](https://leetcode.com/problems/longest-common-subsequence/) | Medium |
 | 1161 | Maximum Level Sum of a Binary Tree | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/max_level_sum.rs) | [Leetcode](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/) | Medium |
