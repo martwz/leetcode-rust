@@ -6,7 +6,7 @@
 
 LeetCode is a website that has programming-related questions that are designed to be solved in a limited amount of time. This repository is a collection of some of my solutions written in [Rust](https://www.rust-lang.org/).
 
-## Solutions (84) 
+## Solutions (88) 
 | No. | Title | Solution | Problem | Difficulty |
 |:---:|:------|:--------:|:-------:|:----------:|
 | 1 | Two Sum | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/two_sum.rs) | [Leetcode](https://leetcode.com/problems/two-sum/) | Easy |
@@ -67,6 +67,7 @@ LeetCode is a website that has programming-related questions that are designed t
 | 1013 | Partition Array Into Three Parts With Equal Sum | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/can_three_parts_equal_sum.rs) | [Leetcode](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/) | Easy |
 | 1035 | Uncrossed Lines | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/max_uncrossed_lines.rs) | [Leetcode](https://leetcode.com/problems/uncrossed-lines/) | Medium |
 | 1041 | Robot Bounded In Circle | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/interview/amazon/is_robot_bounded.rs) | [Leetcode](https://leetcode.com/problems/robot-bounded-in-circle/submissions/) | Medium |
+| 1086 | High Five | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/interview/amazon/high_five.rs) | [Leetcode](https://leetcode.com/problems/high-five/) | Easy |
 | 1134 | Armstrong Number | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/is_good_array.rs) | [Leetcode](https://leetcode.com/problems/armstrong-number/) | Easy |
 | 1135 | Connecting Cities With Minimum Cost | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/interview/amazon/minimum_cost.rs) | [Leetcode](https://leetcode.com/problems/connecting-cities-with-minimum-cost/) | Medium |
 | 1137 | N-th Tribonacci Number | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/tribonacci.rs) | [Leetcode](https://leetcode.com/problems/n-th-tribonacci-number/) | Easy |
@@ -93,3 +94,6 @@ LeetCode is a website that has programming-related questions that are designed t
 | 2025 | Maximum Number of Ways to Partition an Array | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/contest/biweekly_62.rs) | [Leetcode](https://leetcode.com/problems/maximum-number-of-ways-to-partition-an-array/) | Hard |
 | 2027 | Minimum Moves to Convert String | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/contest/weekly_261.rs) | [Leetcode](https://leetcode.com/problems/minimum-moves-to-convert-string/) | Easy |
 | 2028 | Find Missing Observations | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/contest/weekly_261.rs) | [Leetcode](https://leetcode.com/problems/find-missing-observations/) | Medium |
+| 2032 | Two Out of Three | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/contest/weekly_262.rs) | [Leetcode](https://leetcode.com/problems/two-out-of-three/) | Easy |
+| 2033 | Minimum Operations to Make a Uni-Value Grid | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/contest/weekly_262.rs) | [Leetcode](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/) | Medium |
+| 2034 | Stock Price Fluctuation | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/contest/weekly_262.rs) | [Leetcode](https://leetcode.com/problems/stock-price-fluctuation/) | Medium |
