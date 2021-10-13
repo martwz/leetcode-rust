@@ -6,7 +6,7 @@
 
 LeetCode is a website that has programming-related questions that are designed to be solved in a limited amount of time. This repository is a collection of some of my solutions written in [Rust](https://www.rust-lang.org/).
 
-## Solutions (100) 
+## Solutions (105) 
 | No. | Title | Solution | Problem | Difficulty |
 |:---:|:------|:--------:|:-------:|:----------:|
 | 1 | Two Sum | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/two_sum.rs) | [Leetcode](https://leetcode.com/problems/two-sum/) | Easy |
@@ -42,6 +42,7 @@ LeetCode is a website that has programming-related questions that are designed t
 | 212 | Word Search II | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/find_words.rs) | [Leetcode](https://leetcode.com/problems/word-search-ii/) | Hard |
 | 230 | Kth Smallest Element in a BST | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/kth_smallest.rs) | [Leetcode](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | Medium |
 | 242 | Valid Anagram | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/is_anagram.rs) | [Leetcode](https://leetcode.com/problems/valid-anagram/) | Easy |
+| 253 | Meeting Rooms II | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/min_meeting_rooms.rs) | [Leetcode](https://leetcode.com/problems/meeting-rooms-ii/) | Medium |
 | 282 | Expression Add Operators | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/add_operators.rs) | [Leetcode](https://leetcode.com/problems/expression-add-operators/) | Hard |
 | 317 | Shortest Distance from All Buildings | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/shortest_distance.rs) | [Leetcode](https://leetcode.com/problems/shortest-distance-from-all-buildings/) | Hard |
 | 322 | Coin Change | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/coin_change.rs) | [Leetcode](https://leetcode.com/problems/coin-change/) | Medium |
@@ -50,6 +51,7 @@ LeetCode is a website that has programming-related questions that are designed t
 | 337 | House Robber III | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/rob.rs) | [Leetcode](https://leetcode.com/problems/house-robber-iii/) | Medium |
 | 350 | Intersection of Two Arrays II | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/intersect.rs) | [Leetcode](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | Easy |
 | 368 | Largest Divisible Subset | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/largest_divisible_subset.rs) | [Leetcode](https://leetcode.com/problems/largest-divisible-subset/) | Medium |
+| 374 | Guess Number Higher or Lower | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/guess_number.rs) | [Leetcode](https://leetcode.com/problems/guess-number-higher-or-lower/) | Easy |
 | 387 | First Unique Character in a String | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/interview/amazon/first_uniq_char.rs) | [Leetcode](https://leetcode.com/problems/first-unique-character-in-a-string/) | Easy |
 | 435 | Non-overlapping Intervals | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/erase_overlap_intervals.rs) | [Leetcode](https://leetcode.com/problems/non-overlapping-intervals/) | Medium |
 | 442 | Find All Duplicates in an Array | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/find_duplicates.rs) | [Leetcode](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | Medium |
@@ -60,7 +62,9 @@ LeetCode is a website that has programming-related questions that are designed t
 | 516 | Longest Palindromic Subsequence | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/longest_palindrome_subseq.rs) | [Leetcode](https://leetcode.com/problems/longest-palindromic-subsequence/) | Medium |
 | 543 | Diameter of Binary Tree | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/diameter_of_binary_tree.rs) | [Leetcode](https://leetcode.com/problems/diameter-of-binary-tree/) | Easy |
 | 547 | Number of Provinces | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/interview/amazon/find_circle_num.rs) | [Leetcode](https://leetcode.com/problems/number-of-provinces/) | Medium |
+| 696 | Count Binary Substrings | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/count_binary_substrings.rs) | [Leetcode](https://leetcode.com/problems/count-binary-substrings/) | Easy |
 | 698 | Partition to K Equal Sum Subsets | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/can_partition_k_subsets.rs) | [Leetcode](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) | Medium |
+| 713 | Subarray Product Less Than K | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/cheat.rs) | [Leetcode](https://leetcode.com/problems/subarray-product-less-than-k/) | Medium |
 | 713 | Subarray Product Less Than K | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/num_subarray_product_less_than_k.rs) | [Leetcode](https://leetcode.com/problems/subarray-product-less-than-k/) | Medium |
 | 725 | Split Linked List in Parts | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/split_list_to_parts.rs) | [Leetcode](https://leetcode.com/problems/split-linked-list-in-parts/) | Medium |
 | 741 | Cherry Pickup | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/cherry_pickup.rs) | [Leetcode](https://leetcode.com/problems/cherry-pickup/) | Hard |
@@ -74,6 +78,7 @@ LeetCode is a website that has programming-related questions that are designed t
 | 937 | Reorder Data in Log Files | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/interview/amazon/reorder_log_files.rs) | [Leetcode](https://leetcode.com/problems/reorder-data-in-log-files/) | Easy |
 | 973 | K Closest Points to Origin | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/k_closest.rs) | [Leetcode](https://leetcode.com/problems/k-closest-points-to-origin/) | Medium |
 | 991 | Broken Calculator | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/broken_calc.rs) | [Leetcode](https://leetcode.com/problems/broken-calculator/) | Medium |
+| 1008 | Construct Binary Search Tree from Preorder Traversal | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/bst_from_preorder.rs) | [Leetcode](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | Medium |
 | 1013 | Partition Array Into Three Parts With Equal Sum | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/can_three_parts_equal_sum.rs) | [Leetcode](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/) | Easy |
 | 1035 | Uncrossed Lines | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/max_uncrossed_lines.rs) | [Leetcode](https://leetcode.com/problems/uncrossed-lines/) | Medium |
 | 1041 | Robot Bounded In Circle | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/interview/amazon/is_robot_bounded.rs) | [Leetcode](https://leetcode.com/problems/robot-bounded-in-circle/submissions/) | Medium |
