@@ -5,7 +5,7 @@ impl Solution {
         1
     }
 
-    unsafe fn guessNumber(n: i32) -> i32 {
+    unsafe fn guess_umber(n: i32) -> i32 {
         let mut l = 0;
         let mut r = n;
 
