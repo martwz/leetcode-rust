@@ -6,7 +6,7 @@
 
 LeetCode is a website that has programming-related questions that are designed to be solved in a limited amount of time. This repository is a collection of some of my solutions written in [Rust](https://www.rust-lang.org/).
 
-## Solutions (105) 
+## Solutions (109) 
 | No. | Title | Solution | Problem | Difficulty |
 |:---:|:------|:--------:|:-------:|:----------:|
 | 1 | Two Sum | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/two_sum.rs) | [Leetcode](https://leetcode.com/problems/two-sum/) | Easy |
@@ -15,7 +15,7 @@ LeetCode is a website that has programming-related questions that are designed t
 | 5 | Longest Palindromic Substring | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/top_interview/array_and_string/longest_palindrome.rs) | [Leetcode](https://leetcode.com/problems/longest-palindromic-substring/) | Medium |
 | 31 | Next Permutation | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/next_permutation.rs) | [Leetcode](https://leetcode.com/problems/next-permutation/) | Medium |
 | 33 | Search in Rotated Sorted Array | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/interview/amazon/search.rs) | [Leetcode](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Medium |
-| 34 | Find First and Last Position of Element in Sorted Array | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/find-first-and-last-position-of-element-in-sorted-array.rs) | [Leetcode](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Medium |
+| 34 | Find First and Last Position of Element in Sorted Array | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/search_range.rs) | [Leetcode](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Medium |
 | 37 | Sudoku Solver | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/solve_sudoku.rs) | [Leetcode](https://leetcode.com/problems/sudoku-solver/) | Hard |
 | 42 | Trapping Rain Water | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/trap.rs) | [Leetcode](https://leetcode.com/problems/trapping-rain-water/) | Hard |
 | 49 | Group Anagrams | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/top_interview/array_and_string/group_anagrams.rs) | [Leetcode](https://leetcode.com/problems/group-anagrams/) | Medium |
@@ -33,6 +33,7 @@ LeetCode is a website that has programming-related questions that are designed t
 | 100 | Same Tree | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/is_same_tree.rs) | [Leetcode](https://leetcode.com/problems/same-tree/) | easy |
 | 103 | Binary Tree Zigzag Level Order Traversal | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/zigzag_level_order.rs) | [Leetcode](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | Medium |
 | 115 | Distinct Subsequences | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/num_distinct.rs) | [Leetcode](https://leetcode.com/problems/distinct-subsequences/) | Hard |
+| 123 | Best Time to Buy and Sell Stock III | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/max_profit2.rs) | [Leetcode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | Hard |
 | 134 | Gas Station | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/can_complete_circuit.rs) | [Leetcode](https://leetcode.com/problems/gas-station/) | Medium |
 | 169 | Majority Element | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/top_interview/others/majority_element.rs) | [Leetcode](https://leetcode.com/problems/majority-element/solution/) | Easy |
 | 174 | Dungeon Game | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/calculate_minimum_hp.rs) | [Leetcode](https://leetcode.com/problems/dungeon-game/) | Hard |
@@ -43,7 +44,10 @@ LeetCode is a website that has programming-related questions that are designed t
 | 230 | Kth Smallest Element in a BST | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/kth_smallest.rs) | [Leetcode](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | Medium |
 | 242 | Valid Anagram | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/is_anagram.rs) | [Leetcode](https://leetcode.com/problems/valid-anagram/) | Easy |
 | 253 | Meeting Rooms II | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/min_meeting_rooms.rs) | [Leetcode](https://leetcode.com/problems/meeting-rooms-ii/) | Medium |
+| 279 | Perfect Squares | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/perfect_squares.rs) | [Leetcode](https://leetcode.com/problems/perfect-squares/) | Medium |
 | 282 | Expression Add Operators | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/add_operators.rs) | [Leetcode](https://leetcode.com/problems/expression-add-operators/) | Hard |
+| 302 | Smallest Rectangle Enclosing Black Pixels | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/min_area.rs) | [Leetcode](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/) | Hard |
+| 309 | Best Time to Buy and Sell Stock with Cooldown | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/max_profit.rs) | [Leetcode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | Medium |
 | 317 | Shortest Distance from All Buildings | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/shortest_distance.rs) | [Leetcode](https://leetcode.com/problems/shortest-distance-from-all-buildings/) | Hard |
 | 322 | Coin Change | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/coin_change.rs) | [Leetcode](https://leetcode.com/problems/coin-change/) | Medium |
 | 325 | Maximum Size Subarray Sum Equals k | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/challenge/max_sub_array_len.rs) | [Leetcode](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/solution/) | Medium |
