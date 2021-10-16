@@ -39,7 +39,7 @@ impl Solution1 {
 // https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/
 impl Solution2 {
     pub fn min_operations(grid: Vec<Vec<i32>>, x: i32) -> i32 {
-        let mut nums = grid.iter().flatten().map(|n| *n).collect::<Vec<i32>>();
+        let mut nums = grid.iter().flatten().copied().collect::<Vec<i32>>();
 
         let min = nums.iter().min().unwrap();
         for i in 0..nums.len() {

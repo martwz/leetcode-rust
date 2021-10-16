@@ -10,10 +10,10 @@ impl Solution {
         let mut ans: Vec<Vec<i32>> = vec![];
         for item in items.iter() {
             let [id, score] = [item[0], item[1]];
-            if five_map.contains_key(&id) {
-                five_map.entry(id).and_modify(|h| h.push(-score));
+            if let std::collections::hash_map::Entry::Vacant(e) = five_map.entry(id) {
+                e.insert(BinaryHeap::from(vec![-score]));
             } else {
-                five_map.insert(id, BinaryHeap::from(vec![-score]));
+                five_map.entry(id).and_modify(|h| h.push(-score));
             }
 
             if five_map.get_mut(&id).unwrap().len() > 5 {

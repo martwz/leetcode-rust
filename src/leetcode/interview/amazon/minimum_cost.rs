@@ -35,7 +35,7 @@ impl Solution {
             }
         }
 
-        let mut weights = connections.clone(); // [x_i, y_i, cost_i]
+        let mut weights = connections; // [x_i, y_i, cost_i]
         weights.sort_unstable_by(|a, b| a[2].cmp(&b[2]));
 
         let mut costs = 0;

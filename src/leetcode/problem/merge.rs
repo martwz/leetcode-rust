@@ -7,16 +7,14 @@ impl Solution {
         let mut ans: Vec<Vec<i32>> = vec![];
 
         for interval in intervals.iter_mut() {
-            if ans.len() == 0 {
+            if ans.is_empty() {
                 ans.push(interval.clone());
+            } else if interval[0] >= ans.last().unwrap()[0] && interval[1] <= ans.last().unwrap()[1] {
+                continue;
+            } else if interval[0] <= ans.last().unwrap()[1] {
+                ans.last_mut().unwrap()[1] = interval[1];
             } else {
-                if interval[0] >= ans.last().unwrap()[0] && interval[1] <= ans.last().unwrap()[1] {
-                    continue;
-                } else if interval[0] <= ans.last().unwrap()[1] {
-                    ans.last_mut().unwrap()[1] = interval[1];
-                } else {
-                    ans.push(interval.clone());
-                }
+                ans.push(interval.clone());
             }
         }
 

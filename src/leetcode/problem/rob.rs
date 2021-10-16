@@ -33,7 +33,7 @@ impl Solution {
             }
         }
 
-        i32::max(bfs(root.clone()).0, bfs(root.clone()).1)
+        i32::max(bfs(root.clone()).0, bfs(root).1)
     }
 }
 

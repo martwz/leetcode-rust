@@ -35,14 +35,14 @@ impl Solution {
             *i += 1;
 
             let root = Rc::new(RefCell::new(TreeNode::new(val)));
-            root.borrow_mut().left = helper(i, &preorder, lower, val);
-            root.borrow_mut().right = helper(i, &preorder, val, upper);
+            root.borrow_mut().left = helper(i, preorder, lower, val);
+            root.borrow_mut().right = helper(i, preorder, val, upper);
 
-            return Some(root);
+            Some(root)
         }
 
         let mut i = 0;
-        return helper(&mut i, &preorder, i32::MIN, i32::MAX);
+        helper(&mut i, &preorder, i32::MIN, i32::MAX)
     }
 }
 

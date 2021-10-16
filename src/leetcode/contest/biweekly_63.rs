@@ -42,7 +42,7 @@ impl Solution2 {
             }
         }
 
-        return count_aaa > count_bbb;
+        count_aaa > count_bbb
     }
 }
 

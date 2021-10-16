@@ -8,9 +8,9 @@ impl Solution {
         let mut q = VecDeque::<usize>::new();
         
         for (i, h) in height.iter().enumerate() {
-            while q.len() > 0 && height[*q.back().unwrap()] < *h {
+            while !q.is_empty() && height[*q.back().unwrap()] < *h {
                 let top = q.pop_back().unwrap();
-                if q.len() == 0 {
+                if q.is_empty() {
                     break;
                 }
 

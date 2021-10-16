@@ -32,7 +32,7 @@ impl Solution {
             let path_length = 1 + path_left + path_right;
             *max_path_length = i32::max(*max_path_length, path_length);
 
-            return 1 + i32::max(path_left, path_right);
+            1 + i32::max(path_left, path_right)
         }
 
         let mut max_path_length = 0;

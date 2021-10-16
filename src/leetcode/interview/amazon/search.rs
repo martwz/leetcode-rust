@@ -7,8 +7,8 @@ impl Solution {
 
         let i = nums.binary_search_by(|p| p.0.cmp(&target));
         match i {
-            Ok(i) => return nums[i].1 as i32,
-            Err(_) => return -1,
+            Ok(i) => nums[i].1 as i32,
+            Err(_) => -1,
         }
     }
 }
