@@ -1,7 +1,8 @@
 // 374. Guess Number Higher or Lower, Easy
 // https://leetcode.com/problems/guess-number-higher-or-lower/
 impl Solution {
-    unsafe fn guess(n: i32) -> i32 {
+    // fn provided by leetcode
+    unsafe fn guess(_n: i32) -> i32 {
         1
     }
 
