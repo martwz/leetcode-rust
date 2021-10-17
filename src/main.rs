@@ -53,6 +53,20 @@ fn gen_table() -> Result<()> {
     }
 
     entries.sort();
+
+    entries.iter_mut().for_each(|f| match f.2.as_str() {
+        "Easy" => {
+            f.2 = "![easy](https://shields.io/badge/-easy-green)".to_string();
+        }
+        "Medium" => {
+            f.2 = "![medium](https://shields.io/badge/-medium-yellow)".to_string();
+        }
+        "Hard" => {
+            f.2 = "![hard](https://shields.io/badge/-hard-red)".to_string();
+        }
+        _ => {}
+    });
+
     println!("## Solutions ({}) ", entries.len());
     println!(
         r#"| No. | Title | Solution | Problem | Difficulty |

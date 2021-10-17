@@ -14,7 +14,7 @@ impl TreeNode {
 use std::cell::RefCell;
 use std::rc::Rc;
 
-// 100. Same Tree, easy
+// 100. Same Tree, Easy
 // https://leetcode.com/problems/same-tree/
 impl Solution {
     pub fn is_same_tree(p: Option<Rc<RefCell<TreeNode>>>, q: Option<Rc<RefCell<TreeNode>>>) -> bool {
