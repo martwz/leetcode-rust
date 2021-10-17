@@ -12,14 +12,12 @@ impl Solution1 {
         for ch in s.chars() {
             if ch.is_numeric() {
                 curr_digit = curr_digit * 10 + ch.to_digit(10).unwrap();
-            } else {
-                if curr_digit != 0 {
-                    if prev >= curr_digit {
-                        return false;
-                    }
-                    prev = curr_digit;
-                    curr_digit = 0;
+            } else if curr_digit != 0 {
+                if prev >= curr_digit {
+                    return false;
                 }
+                prev = curr_digit;
+                curr_digit = 0;
             }
         }
 
@@ -45,38 +43,38 @@ impl Bank {
 
     fn transfer(&mut self, account1: i32, account2: i32, money: i64) -> bool {
         if !self.accounts.contains_key(&account1) || !self.accounts.contains_key(&account2) {
-            return false;
+            false
         } else {
             let avail = *self.accounts.get(&account1).unwrap_or(&0);
             if avail >= money {
                 self.accounts.entry(account1).and_modify(|b| *b -= money);
                 self.accounts.entry(account2).and_modify(|b| *b += money);
-                return true;
+                true
             } else {
-                return false;
+                false
             }
         }
     }
 
     fn deposit(&mut self, account: i32, money: i64) -> bool {
         if !self.accounts.contains_key(&account) {
-            return false;
+            false
         } else {
             self.accounts.entry(account).and_modify(|b| *b += money);
-            return true;
+            true
         }
     }
 
     fn withdraw(&mut self, account: i32, money: i64) -> bool {
         if !self.accounts.contains_key(&account) {
-            return false;
+            false
         } else {
             let avail = *self.accounts.get(&account).unwrap_or(&0);
             if avail >= money {
                 self.accounts.entry(account).and_modify(|b| *b -= money);
-                return true;
+                true
             } else {
-                return false;
+                false
             }
         }
     }
@@ -98,8 +96,8 @@ impl Solution3 {
             if a == b | nums[i as usize] {
                 *count += 1
             }
-            subset(&nums, count, i - 1, a, b);
-            subset(&nums, count, i - 1, a, b | nums[i as usize]);
+            subset(nums, count, i - 1, a, b);
+            subset(nums, count, i - 1, a, b | nums[i as usize]);
         }
 
         let mut count = 0;

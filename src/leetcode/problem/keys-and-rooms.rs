@@ -22,7 +22,7 @@ impl Solution {
             rooms[room as usize] = vec![];
         }
 
-        visited.iter().all(|v| *v == true)
+        visited.iter().all(|v| *v)
     }
 }
 

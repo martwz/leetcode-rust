@@ -6,7 +6,7 @@ impl Solution {
 
         fn helper(blocks: Vec<Vec<u32>>, digits: &Vec<u32>, i: usize, ans: &mut Vec<String>) {
             if blocks.len() > 4 || i > digits.len() {
-                return;
+                
             } else if blocks.len() == 4 && i == digits.len() {
                 let mut s = String::new();
                 for block in blocks {

@@ -4,7 +4,7 @@ use std::collections::{HashMap, VecDeque};
 // https://leetcode.com/problems/course-schedule-ii/
 impl Solution {
     pub fn find_order(num_courses: i32, prerequisites: Vec<Vec<i32>>) -> Vec<i32> {
-        let mut indegree = (0..num_courses).map(|f| 0).collect::<Vec<i32>>();
+        let mut indegree = (0..num_courses).map(|_| 0).collect::<Vec<i32>>();
 
         let mut hm = HashMap::<i32, Vec<i32>>::new();
         for prereq in prerequisites.iter() {
