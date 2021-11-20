@@ -8,7 +8,7 @@ LeetCode is a website that has programming-related questions that are designed t
 
 ## Solutions (132) 
 | No. | Title | Solution | Problem | Difficulty |
-    |:---:|:------|:--------:|:-------:|:----------:|
+|:---:|:------|:--------:|:-------:|:----------:|
 | 1 | Two Sum | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/problem/two_sum.rs) | [Leetcode](https://leetcode.com/problems/two-sum/) | ![easy](https://shields.io/badge/-easy-green) |
 | 2 | Add Two Numbers | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/top_interview/linked_list/add_two_numbers.rs) | [Leetcode](https://leetcode.com/problems/add-two-numbers/) | ![medium](https://shields.io/badge/-medium-yellow) |
 | 3 | Longest Substring Without Repeating Characters | [Rust](https://github.com/martinxxd/leetcode-rust/tree/master/./src/leetcode/top_interview/array_and_string/length_of_longest_substring.rs) | [Leetcode](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | ![medium](https://shields.io/badge/-medium-yellow) |
